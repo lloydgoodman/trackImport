@@ -1,6 +1,8 @@
 FROM python
 
+# Set the working directory to /app
 WORKDIR /usr/src/app
+
 COPY . /usr/src/app
 
 # Install any needed packages specified in requirements.txt
