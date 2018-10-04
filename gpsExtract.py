@@ -1,5 +1,3 @@
-#!/usr/bin/env python
- 
 import sys
 import untangle
 
@@ -14,3 +12,4 @@ for note in obj.note:
     body = note.body.cdata
 
 print(body)
+
